@@ -1,0 +1,38 @@
+@charset "UTF-8";
+body{background-image: url(лес.jpg);
+background-repeat: no-repeat;
+background-attachment: fixed;
+  background-size: 100% 110%;}
+
+
+article{
+  background-image: url(доск.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+    background-size: 100% 130%;}
+
+    .rainbow-animated {
+      background: linear-gradient(to right, red, orange, yellow, green, cyan, blue, violet);
+      background-size: 400% 400%;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      -webkit-animation: rainbow 20s ease infinite;
+      animation: rainbow 20s ease infinite;
+      font-size: 25px;
+      line-height: 25px;
+    }
+
+    @-webkit-keyframes rainbow {
+      0% { background-position: 0% 50% }
+      50% { background-position: 100% 50% }
+      100% { background-position: 0% 50% }
+    }
+
+    @keyframes rainbow {
+      0% { background-position: 0% 50% }
+      50% { background-position: 100% 50% }
+      100% { background-position: 0% 50% }
+    }
+.red {color:#DCDCDC;}
+.brown{color:#F0F8FF;}
+.white{color:#DCDCDC}

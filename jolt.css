@@ -1,0 +1,12 @@
+@charset "UTF-8";
+body{background-image: url(желт.jpg);
+background-repeat: no-repeat;
+background-attachment: fixed;
+  background-size: 100% 110%;}
+
+
+
+
+.red {color:yellow;}
+.brown{color:#000000;}
+.white{color:#DCDCDC}

@@ -1,0 +1,12 @@
+@charset "UTF-8";
+body{background-image: url(син.jpg);
+background-repeat: no-repeat;
+background-attachment: fixed;
+  background-size: 100% 110%;}
+
+
+
+
+.red {color:#4682B4}
+.brown{color:#4682B4}
+.white{color:#DCDCDC}
